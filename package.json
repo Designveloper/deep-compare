@@ -1,6 +1,6 @@
 {
   "name": "deep-comparison",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Deep recursive objects comparison",
   "module": "./src/index.js",
   "main": "./dist/index.js",

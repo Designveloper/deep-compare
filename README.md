@@ -13,4 +13,4 @@ const b = deepClone(a);
 isEqual(a, b); // true
 ```  
 ## License  
-MIT
+[MIT](https://github.com/sonlexqt/deep-comparison/blob/master/LICENSE)
