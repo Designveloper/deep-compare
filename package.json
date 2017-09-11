@@ -1,6 +1,6 @@
 {
   "name": "deep-comparison",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Deep recursive objects comparison",
   "module": "./src/index.js",
   "main": "./dist/index.js",
@@ -8,18 +8,6 @@
     "build": "babel src --out-dir dist",
     "prepublishOnly": "npm run build",
     "test": "ava"
-  },
-  "babel": {
-    "presets": [
-      [
-        "env",
-        {
-          "targets": {
-            "node": "current"
-          }
-        }
-      ]
-    ]
   },
   "ava": {
     "require": [
@@ -41,6 +29,12 @@
     "ava": "^0.22.0",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.0",
-    "babel-register": "^6.26.0"
+    "babel-register": "^6.26.0",
+    "eslint": "^4.6.1",
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-plugin-import": "^2.7.0"
+  },
+  "dependencies": {
+    "crypto-js": "^3.1.9-1"
   }
 }
