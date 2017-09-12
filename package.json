@@ -1,6 +1,6 @@
 {
   "name": "deep-comparison",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Deep recursive objects comparison",
   "module": "./src/index.js",
   "main": "./dist/index.js",
@@ -19,7 +19,7 @@
     "type": "git",
     "url": "git+https://github.com/sonlexqt/deep-comparison.git"
   },
-  "author": "sonlexqt",
+  "author": "designveloper",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sonlexqt/deep-comparison/issues"
