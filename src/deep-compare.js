@@ -38,7 +38,12 @@ const unifyObject = (obj) => {
   }
 };
 
-const isEqual = (first, second) => hashObject(unifyObject(deepClone(first)))
+const deepEqual = (first, second) => hashObject(unifyObject(deepClone(first)))
   === hashObject(unifyObject(deepClone(second)));
 
-export default isEqual;
+export {
+  deepEqual,
+  hashObject,
+  sortArrays,
+  unifyObject,
+};

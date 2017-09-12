@@ -15,5 +15,5 @@ const deepClone = (obj) => {
   }
   return obj;
 };
-  
+
 export default deepClone;
