@@ -1,5 +1,5 @@
 {
-  "name": "deep-comparison",
+  "name": "@designveloper/deep-comparison",
   "version": "1.0.0",
   "description": "Deep recursive objects comparison",
   "module": "./src/index.js",
