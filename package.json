@@ -1,6 +1,6 @@
 {
   "name": "@designveloper/deep-comparison",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Deep recursive objects comparison",
   "module": "./src/index.js",
   "main": "./dist/index.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sonlexqt/deep-comparison.git"
+    "url": "git+https://github.com/Designveloper/deep-compare"
   },
   "author": "designveloper",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sonlexqt/deep-comparison/issues"
+    "url": "https://github.com/Designveloper/deep-compare/issues"
   },
-  "homepage": "https://github.com/sonlexqt/deep-comparison#readme",
+  "homepage": "https://github.com/Designveloper/deep-compare#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.0",
